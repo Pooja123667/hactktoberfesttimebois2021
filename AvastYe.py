@@ -176,6 +176,7 @@ for num in range(num_island):
  for node_i in range(num_nodes):
  land_part_lst = input().split(" ")
  degree = int(land_part_lst[0])
+ print(degree)
  for j in range(1,degree):
  land_part_num = int(land_part_lst[j])
  island_lst[num].addEdge(node_i,land_part_num)
